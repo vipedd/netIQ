@@ -1,0 +1,128 @@
+.hist-req-box {
+  width: 97%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: 'Poppins', sans-serif;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.hist-req-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.hist-req-box li {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.hist-req-box li:hover {
+  background-color: #ddd;
+}
+
+.hist-req-box ul::-webkit-scrollbar {
+  width: 5px;
+}
+  .hist-req-box table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .hist-req-box th {
+    padding: 8px;
+    text-align: center;
+    background-color: #0b2578;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .hist-req-box td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .hist-req-box td p {
+    margin: 0;
+  }
+  
+  .hist-req-box td p:last-child {
+    margin-left: 10px;
+  }
+  
+  .hist-req-box tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .hist-req-box thead tr {
+    position: sticky;
+    top: 0;
+  }
+  
+  .hist-req-box thead th:first-child {
+    border-top-left-radius: 10px;
+  }
+  
+  .hist-req-box thead th:last-child {
+    border-top-right-radius: 10px;
+  }
+  
+  .hist-req-box tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+  }
+  
+  .hist-req-box tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+  }
+  
+  .hist-req-box tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .hist-req-box p {
+    margin: 0;
+    color: #0b2578;
+    font-size: 16px;
+  }
+  
+  .hist-req-box button {
+    border: none;
+    background-color: #0b2578;
+    color: #fff;
+    border-bottom: 1px solid #0b2578;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .hist-req-box button:hover {
+    background-color: #fff;
+    color: #0b2578;
+  }
+  
+  
+  
+  
+  
+  
+  
+  

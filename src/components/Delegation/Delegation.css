@@ -1,0 +1,91 @@
+  .categories-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .categories-list {
+    flex-basis: 50%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+  
+  .categories-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .categories-list li {
+    cursor: pointer;
+    margin: 0.5rem 0;
+  }
+  
+  .categories-list li.selected {
+    font-weight: bold;
+  }
+  
+  .delegation-box {
+    margin-bottom: 1rem;
+  }
+  
+    
+  @media (max-width: 768px) {
+    .categories-list {
+      flex-basis: 100%;
+    }
+  }
+
+
+  /*----------------------------------*/
+  .datepicker-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .react-datepicker-wrapper {
+    flex: 1;
+    margin-left: 10px;
+  }  
+
+  /*----------------------------------*/
+  
+  .delegation-box {
+    width: 97%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: flex-start;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }  
+
+  .delegation-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .delegation-box li {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .delegation-box li:hover {
+    background-color: #ddd;
+  }
+
+  .delegation-box ul::-webkit-scrollbar {
+    width: 5px;
+  }

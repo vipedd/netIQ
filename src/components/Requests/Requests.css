@@ -1,0 +1,58 @@
+.button-req-container {
+  position: fixed;
+  top: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100px;
+}
+
+.button-new-req {
+  background-color: #0b2578;
+  color: #fff;
+  border: 1px solid #0b2578;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 30px;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.button-new-req:hover {
+  background-color: #fff;
+  color: #0b2578;
+}
+
+.button-pre-def-one,
+.button-pre-def-two {
+  border: none;
+  background-color: #fff;
+  color: #0b2578;
+  border: 1px solid #0b2578;
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.2s ease-in-out;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+
+.button-pre-def-two {
+  left: 450px;
+}
+
+
+.icon-pre-def {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}

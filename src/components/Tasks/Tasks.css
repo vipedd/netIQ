@@ -1,0 +1,110 @@
+.task-box {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-box h4 {
+    margin-right: 20px;
+    color: #0b2578;
+    font-size: 18px;
+  }
+  
+  .task-box input {
+    border: none;
+    border-bottom: 2px solid #0b2578;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+  }
+  
+  .task-box input:focus {
+    outline: none;
+  }
+  
+  .task-box button {
+    border: none;
+    background-color: #0b2578;
+    color: #fff;
+    border-bottom: 1px solid #0b2578;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .task-box button:hover {
+    background-color: #fff;
+    color: #0b2578;
+  }
+
+  .task-box table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .task-box th {
+    padding: 8px;
+    text-align: center;
+    background-color: #0b2578;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .task-box td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  .task-box td p {
+    margin: 0;
+  }
+  
+  .task-box td p:last-child {
+    margin-left: 10px;
+  }
+  
+  .task-box tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .task-box thead tr {
+    position: sticky;
+    top: 0;
+  }
+  
+  .task-box thead th:first-child {
+    border-top-left-radius: 10px;
+  }
+  
+  .task-box thead th:last-child {
+    border-top-right-radius: 10px;
+  }
+  
+  .task-box tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+  }
+  
+  .task-box tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+  }
+  
+  .task-box tbody tr:last-child td {
+    border-bottom: none;
+  }

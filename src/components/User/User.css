@@ -1,0 +1,181 @@
+
+/*<---------------USER PICTURE AND RELEVANT INFO DISPLAYED AT THE TOP LEFT CORNER----------------------->*/
+.user-header {
+  display: flex;
+  align-items: flex-start;
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 10px;
+  width: 45%;
+  margin-top: -30px;
+  border: 5px solid #0b2578;
+}
+
+.user-header .image {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.user-header h1 {
+  margin: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+}
+
+.user-header h3 {
+  margin: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+}
+
+.attribute-values {
+  margin-top: 15px;
+}
+
+/*<---------------USERS SEARCH BAR AND LIST DISPLAYED UNDER THE USER PICTURE----------------------->*/
+
+.users-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 45%;
+  margin-top: 30px;
+  border: 5px solid #0b2578;
+}
+
+.users-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.search-section {
+  background-color: #b5bfdf;
+  width: 100%;
+}
+.input-section {
+  margin: 20px;
+  display: flex;
+  align-items: center;  
+}
+
+.search-input {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #0b2578;
+  border-radius: 5px;
+  width: 70%;
+}
+
+.pagination-buttons {
+  margin-left: 5px;
+}
+.pagination-buttons button {
+  margin-bottom: 20px;
+  padding: 5px 10px; /* Adjust the padding to make the buttons smaller */
+  font-size: 12px; /* Reduce the font size for smaller buttons */
+  background-color: #94a5dd;
+}
+
+.search-section h4 {
+  margin-top: -30px;
+  margin-left: 20px;
+  font-size: 10px;
+  text-align: left;
+}
+
+.user-list-container {
+  width: 100%;
+  height: 300px;
+  overflow-y: auto;
+  align-items: center;
+  scrollbar-width: thin; /* Add this line to adjust the scrollbar width */
+  
+}
+
+.scroll-users{
+  width: 95%;
+  cursor: pointer;
+  margin: 15px;  
+}
+
+.scroll-users tr {
+  transition: background-color 0.3s ease; /* Add a transition for smooth effect */
+}
+
+.scroll-users tr:hover {  
+  background-color: #94a5dd; /* Set the background color on hover */
+  transform: scale(1.02); /* Add a slight scale-up effect on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow on hover */
+}
+
+
+.scroll-users td {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 20px;
+}
+
+.scroll-users td p {
+  margin-left: 20px;
+}
+
+.user-list-container::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+.user-list-container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the background color of the scrollbar track */
+}
+
+.user-list-container::-webkit-scrollbar-thumb {
+  background: #94a5dd; /* Set the color of the scrollbar thumb */
+  border-radius: 4px; /* Set the border radius of the scrollbar thumb */
+}
+
+.user-list-container::-webkit-scrollbar-thumb:hover {
+  background: #49516d; /* Set the color of the scrollbar thumb on hover */
+}
+
+
+
+
+/* <--------------USER INFO AN RELATIONSHIPS DISPLAYED AT THE RIGHT-----------------------> */
+.user-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: -550px;
+  margin-left: auto;
+  border: 5px solid #0b2578;
+}
+
+.user-info,
+.user-subinfo {
+  flex-basis: 50%;
+}
+
+.user-info h5,
+.user-subinfo h5 {
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+
+.user-info p,
+.user-subinfo p {
+  font-size: 14px;
+}
+
+.user-info,
+.user-subinfo {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
